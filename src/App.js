@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Welcome1, WelCome2 } from './components/compType';
 import Clock from './components/clock';
-
+import { Button } from 'antd';
 function formatName(user) {
 
   return user.firstName + ' ' + user.lastName;
@@ -24,6 +24,7 @@ function App() {
       <Welcome1 name="some contents"/>
       <WelCome2 name="some contents"/>
       <Clock name="nihao"/>
+      <Button>按钮</Button>
     </div>
   );
 }
